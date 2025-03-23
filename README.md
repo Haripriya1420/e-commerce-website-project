@@ -27,6 +27,6 @@ This is a fully functional **E-Commerce Website** designed using **HTML, CSS, an
    ```
 3. **Open `index.html` in your browser** or use a local server for better experience.
 
-### 🌍 Live Demo (if deployed)
+### 🌍 Live Demo
 🔗 [Live Project Link](https://carafashions.netlify.app/)
 
