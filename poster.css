@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+#hero {
+  background-image: url("img/karnan.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+/* Cinzel Decorative */
+#hero h1 {
+  font-family: 'Cinzel Decorative', sans-serif; /* Applying the fantasy font */
+  font-size: 80px; /* Adjust the font size as needed */
+  margin-bottom: 50px; /* Adjust this value to move the text higher or lower */
+  -webkit-font-smoothing: antialiased; /* Applies antialiasing to the text */
+
+  /* Adding graphic design effects */
+  background: linear-gradient(90deg, #ffbd27, #ff007b);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  transform: skew(-10deg);
+}
